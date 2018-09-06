@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
   <body>
+    
+    <p class='test'>
+        
+    </p>
+    if this has scripts enabled right, should be random nubmers ^^^^^
       <script>
-         window.setInterval(function(){document.body.innerHTML = Math.random()*10e6},500);
+         window.setInterval(function(){document.getElementByClassName('test')[0].innerText = Math.random()*10e6},500);
       </script>
